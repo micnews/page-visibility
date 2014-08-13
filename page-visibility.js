@@ -31,7 +31,7 @@ module.exports = function (callback) {
 
   // if we have access to html5-visibility api use that
   if (typeof(hidden) === 'boolean') {
-    return callback(!hidden)
+    return process.nextTick(function () { callback(!hidden) })
   } else {
     // otherwise use a polyfill (based on moving the mouse)
     polyfill(callback)
