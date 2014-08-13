@@ -1,6 +1,6 @@
 {
   "name": "page-visibility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discover if a page is visible or not.",
   "main": "page-visibility.js",
   "scripts": {
