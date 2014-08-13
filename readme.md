@@ -6,6 +6,8 @@ When available we use the [Page Visibilty API](https://developer.mozilla.org/en-
 
 The primary use case it to get knowledge about if a page is visible when the page just have been loade. To get visibility information after the page has been loaded, [window.onfocus](https://developer.mozilla.org/en-US/docs/Web/API/Window.onfocus) or [window.onblur](https://developer.mozilla.org/en-US/docs/Web/API/Window.onblur) can be used instead.
 
+[![testling badge](https://ci.testling.com/micnews/page-visibility.png)](https://ci.testling.com/micnews/page-visibility)
+
 [![NPM](https://nodei.co/npm/page-visibility.png?downloads&stars)](https://nodei.co/npm/page-visibility/)
 
 [![NPM](https://nodei.co/npm-dl/page-visibility.png)](https://nodei.co/npm/page-visibility/)
