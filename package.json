@@ -1,0 +1,25 @@
+{
+  "name": "page-visibility",
+  "version": "0.0.0",
+  "description": "Discover if a page is visible or not.",
+  "main": "page-visibility.js",
+  "scripts": {
+    "test": "browserify test.js | testling"
+  },
+  "author": "David Björklund <david.bjorklund@gmail.com> (http://davidbjorklund.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "dependencies": {
+    "add-event-listener": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micnews/page-visibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/micnews/page-visibility/issues"
+  },
+  "homepage": "https://github.com/micnews/page-visibility"
+}
