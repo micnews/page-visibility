@@ -4,7 +4,7 @@
   "description": "Discover if a page is visible or not.",
   "main": "page-visibility.js",
   "scripts": {
-    "test": "browserify test.js | testling"
+    "test": "zuul -- test.js"
   },
   "author": "David Björklund <david.bjorklund@gmail.com> (http://davidbjorklund.com/)",
   "license": "MIT",
@@ -22,20 +22,5 @@
   "bugs": {
     "url": "https://github.com/micnews/page-visibility/issues"
   },
-  "homepage": "https://github.com/micnews/page-visibility",
-  "testling": {
-    "files": "test.js",
-    "browsers": [
-      "ie/8..latest",
-      "firefox/17..latest",
-      "firefox/nightly",
-      "chrome/22..latest",
-      "chrome/canary",
-      "opera/12..latest",
-      "opera/next",
-      "safari/5.1..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest"
-    ]
-  }
+  "homepage": "https://github.com/micnews/page-visibility"
 }
