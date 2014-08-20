@@ -21,7 +21,7 @@ test('when window is visible', function (t) {
   var event
 
   if (document.createEvent) {
-    event = document.createEvent
+    event = document.createEvent('MouseEvent')
     event.initMouseEvent('mousemove', false, false, null)
     document.dispatchEvent(event)
   }
